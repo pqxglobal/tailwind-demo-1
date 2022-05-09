@@ -1,0 +1,14 @@
+{
+  "name": "tailwind-demo-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "tailwindcss": "^3.0.24"
+  }
+}
